@@ -13,7 +13,7 @@ services:
     environment:
       POSTGRES_DB: ghosts
       POSTGRES_USER: ghosts
-      POSTGRES_PASSWORD: scotty@1
+      POSTGRES_PASSWORD: ghosts
     volumes:
       - ./db_data:/var/lib/postgresql/data
       - ./spectre_data:/tmp

@@ -96,7 +96,7 @@ namespace Ghosts.Api.Infrastructure.Data
     {
         public ApplicationDbContext CreateDbContext(string[] args)
         {
-            var path = $"{Directory.GetCurrentDirectory()}/../ghosts.api/";
+            var path = $"{Directory.GetCurrentDirectory()}";
             Console.WriteLine(path);
             var configuration = new ConfigurationBuilder()
                 .SetBasePath(path)
