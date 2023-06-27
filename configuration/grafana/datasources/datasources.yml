@@ -12,7 +12,7 @@ datasources:
   database: ghosts
   user: ghosts
   secureJsonData:
-    password: scotty@1
+    password: ghosts
   isDefault: true
   jsonData:
     sslmode: disable
